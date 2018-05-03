@@ -315,3 +315,6 @@ __pycache__/
 
 
 # End of https://www.gitignore.io/api/visualstudio
+
+### Ignore App.config
+*App.config
