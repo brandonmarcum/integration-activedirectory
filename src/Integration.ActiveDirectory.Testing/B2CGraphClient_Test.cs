@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Integration.ActiveDirectory.Testing
 {
-    public class UnitTest1
+    public class B2CGraphClient_Test
     {
         [Fact]
         public void Test1()
