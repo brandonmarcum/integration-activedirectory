@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Integration.ActiveDirectory.Testing
 {
-    public class B2CGraphClient_Test
+    public class B2CGraphClient_Tests
     {
         IConfigurationRoot Configuration { get; set; }
         public void SetConfiguration()
