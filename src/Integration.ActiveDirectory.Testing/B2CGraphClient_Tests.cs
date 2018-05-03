@@ -18,7 +18,7 @@ namespace Integration.ActiveDirectory.Testing
 
 
         [Fact]
-        public void GetAllUsers__Test()
+        public void T01_GetAllUsers()
         {         
             //arrange
             SetConfiguration();
