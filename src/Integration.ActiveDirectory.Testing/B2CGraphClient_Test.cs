@@ -12,7 +12,7 @@ namespace Integration.ActiveDirectory.Testing
         public void SetConfiguration()
         {
             var builder = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                .AddJsonFile("appsettings.dev.json", optional: true, reloadOnChange: true);
             Configuration = builder.Build();
         }
 
